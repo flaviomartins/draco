@@ -481,6 +481,8 @@ set(draco_core_sources
 set(draco_io_sources
     "${draco_src_root}/io/file_utils.cc"
     "${draco_src_root}/io/file_utils.h"
+    "${draco_src_root}/io/kitti_decoder.cc"
+    "${draco_src_root}/io/kitti_decoder.h"
     "${draco_src_root}/io/mesh_io.cc"
     "${draco_src_root}/io/mesh_io.h"
     "${draco_src_root}/io/obj_decoder.cc"
